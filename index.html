@@ -12,14 +12,33 @@
          #container{
                 display: flex;
                 flex-wrap: wrap;
-                background-color: rebeccapurple;
+                justify-content: space-around;
+                background-color:greenyellow;
+            }
+             
+            .main {
+                font-weight: bold;
+                color: red;
+                text-align: justify;
+            }   
+            .header{
+                background-color: cadetblue;
+                padding: 30px;
             }
         </style>
     </head>
     <body>
+       
+        <div class="header">
         <h1>Este es mi sitio Web de paginas GitHub!</h1>
+    </div>
+    
         <div id="container">
-            <div>2. Este es un texto en un container</div>
+            <div>1. Este es un texto en un container</div>
+
+            <article class="main">
+                <p>El valor añadido, la bola extra, la que mejor se aprovecha y más se disfruta, aquella que en la mayoría de las ocasiones permite conseguir la mejor puntuación, es que Jaume Esteve consigue todo esto sin aspavientos literarios innecesarios ni fanatismos de ningún tipo; las opiniones personales del autor se vierten a lo largo del texto, sí, pero cuando corresponde y como corresponde. Si un programa, una actitud, o una decisión comercial debe ser criticada, Esteve no deja de emitir tal crítica, y si algo debe ser ensalzado, también coloca ese algo en el pedestal que merece. En un libro que toca una temática tan afianzada en la polémica como la que este tomo trata, muchos optarían por quedar bien con todos y cascar inexactitudes bellamente maquilladas del palo “todos aquellos juegos y quienes los programaron brillaron y brillan con luz propia en el firmamento lúdico” </p>
+            </article>
         </div>
     </body>
 </html>
